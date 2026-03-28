@@ -1,12 +1,18 @@
-### NextJs 15 Starter with ShadCN, TailwindCSS, Prettier Plugin for TailwindCSS, and JavaScript.
+## Fetching data in NextJs
+1. The Randomuser API
+  - Can fetch directly on the frontend
+    - Show difference in client and server components
+  - Easily get the data
+  - console.log the data
+  - Display to the user
 
-#### Why did I choose these?
+2. The dataverse API
+  - Needs an API route to get the data because of CORS
+  - Explain CORS
+  - console.log the data
+  - Display to the user
 
-- ShadCN: An amazing component library: [https://ui.shadcn.com](https://ui.shadcn.com)
-- Prettier Plugin for TailwindCSS sorts classes according to an order agreed upon at Tailwind Labs: [https://github.com/tailwindlabs/prettier-plugin-tailwindcss](https://github.com/tailwindlabs/prettier-plugin-tailwindcss)
-- JavaScript, because I don't know TypeScript.
-- The default font is set to Geist Sans in `globals.css` - the current default font in NextJs.
-
-> This example uses `pnpm` as the package manager. If you are using a different package manager, first delete the `pnpm-lock.yaml` file before installing node_modules, otherwise it will cause a conflict in your project.
-
-> [Find me here](https://youtube.com/tsbsankara)
+## Things you can do
+1. For the random user api, create a custom hook.
+2. Build a better UI
+3. Use that one API that you love or are having trouble with
