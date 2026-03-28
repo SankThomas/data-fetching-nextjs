@@ -65,9 +65,16 @@ export default function RandomUserClient() {
         </div>
       ))}
 
-      <Link href="/" className="rounded border p-4">
-        Back
-      </Link>
+      {/* Add this after showing the server component */}
+      <div className="mt-4 flex items-center justify-center gap-4">
+        <button className="rounded border p-4" onClick={getRandomUser}>
+          Get another user
+        </button>
+
+        <Link href="/" className="rounded border p-4">
+          Back
+        </Link>
+      </div>
     </div>
   );
 }
